@@ -1,4 +1,4 @@
-.footer-social-join {
+.footer__social-join {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -8,11 +8,11 @@
   margin-bottom: 20px;
 }
 
-.footer-social-icon {
+.footer__social-icon {
   display: flex;
   justify-content: center;
 }
-.footer-social-icon-link {
+.footer__social-icon-link {
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -20,16 +20,15 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent);
+  }
 }
-.footer-social-icon-list:not(:last-child) {
+.footer__social-icon-list:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-icon-item {
+.footer__social-icon-item {
   fill: white;
-}
-
-.footer-social-icon-link:hover,
-.footer-social-icon-link:focus {
-  background-color: var(--accent);
 }

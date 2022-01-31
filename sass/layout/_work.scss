@@ -1,8 +1,8 @@
-.work-list {
+.work__list {
   display: flex;
   justify-content: center;
 }
-.work-list {
+.work__list {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -14,6 +14,6 @@
   margin-bottom: 56px;
 }
 
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 8px;
 }

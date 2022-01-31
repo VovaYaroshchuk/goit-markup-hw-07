@@ -1,7 +1,7 @@
 .subscribe {
   padding-top: 72px;
 }
-.email-label {
+.subscribe__email-label {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -9,7 +9,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.subscribe-input {
+.subscribe__input {
   padding-left: 16px;
   margin-top: 20px;
   width: 358px;
@@ -21,12 +21,11 @@
   background-color: #2f303a;
   margin-right: 12px;
   color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
-.subscribe-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.subscribe-item {
+.subscribe__item {
   margin-left: 10px;
 }
